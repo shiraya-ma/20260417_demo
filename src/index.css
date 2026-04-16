@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+html,
+body {
+  @apply size-full;
+}
+
+div#root {
+  @apply flex-col w-full max-w-[100ch] px-4 py-12 mx-auto;
+}
